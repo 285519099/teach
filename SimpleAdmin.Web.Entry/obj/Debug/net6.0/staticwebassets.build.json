@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vhIARO3qzWgs0POABi33O8TFkBgMRy7dRBWCAJRKZCs=",
+  "Source": "SimpleAdmin.Web.Entry",
+  "BasePath": "_content/SimpleAdmin.Web.Entry",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

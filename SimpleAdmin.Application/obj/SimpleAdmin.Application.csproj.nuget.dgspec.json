@@ -1,0 +1,467 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Application\\SimpleAdmin.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Application\\SimpleAdmin.Application.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Application\\SimpleAdmin.Application.csproj",
+        "projectName": "SimpleAdmin.Application",
+        "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Application\\SimpleAdmin.Application.csproj",
+        "packagesPath": "C:\\Users\\chenhao\\.nuget\\packages\\",
+        "outputPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chenhao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.System\\SimpleAdmin.System.csproj": {
+                "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.System\\SimpleAdmin.System.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Cache\\SimpleAdmin.Cache.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Cache\\SimpleAdmin.Cache.csproj",
+        "projectName": "SimpleAdmin.Cache",
+        "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Cache\\SimpleAdmin.Cache.csproj",
+        "packagesPath": "C:\\Users\\chenhao\\.nuget\\packages\\",
+        "outputPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chenhao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj": {
+                "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SimpleRedis": {
+              "target": "Package",
+              "version": "[1.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj",
+        "projectName": "SimpleAdmin.Core",
+        "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj",
+        "packagesPath": "C:\\Users\\chenhao\\.nuget\\packages\\",
+        "outputPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chenhao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Lazy.Captcha.Core": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            },
+            "Masuit.Tools.Core": {
+              "target": "Package",
+              "version": "[2.6.9.7, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MoYu.Extras.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[0.0.0.9, )"
+            },
+            "MoYu.Extras.ObjectMapper.Mapster": {
+              "target": "Package",
+              "version": "[0.0.0.9, )"
+            },
+            "MoYu.Pure": {
+              "target": "Package",
+              "version": "[0.0.0.9, )"
+            },
+            "NewLife.Core": {
+              "target": "Package",
+              "version": "[10.8.2024.303, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "SharpZipLib": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SimpleTool": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Yitter.IdGenerator": {
+              "target": "Package",
+              "version": "[1.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Plugin\\SimpleAdmin.Plugin.Aop\\SimpleAdmin.Plugin.Aop.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Plugin\\SimpleAdmin.Plugin.Aop\\SimpleAdmin.Plugin.Aop.csproj",
+        "projectName": "SimpleAdmin.Plugin.Aop",
+        "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Plugin\\SimpleAdmin.Plugin.Aop\\SimpleAdmin.Plugin.Aop.csproj",
+        "packagesPath": "C:\\Users\\chenhao\\.nuget\\packages\\",
+        "outputPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Plugin\\SimpleAdmin.Plugin.Aop\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chenhao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Cache\\SimpleAdmin.Cache.csproj": {
+                "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Cache\\SimpleAdmin.Cache.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MoYu.Pure": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.SqlSugar\\SimpleAdmin.SqlSugar.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.SqlSugar\\SimpleAdmin.SqlSugar.csproj",
+        "projectName": "SimpleAdmin.SqlSugar",
+        "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.SqlSugar\\SimpleAdmin.SqlSugar.csproj",
+        "packagesPath": "C:\\Users\\chenhao\\.nuget\\packages\\",
+        "outputPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.SqlSugar\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chenhao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj": {
+                "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.146, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.System\\SimpleAdmin.System.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.System\\SimpleAdmin.System.csproj",
+        "projectName": "SimpleAdmin.System",
+        "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.System\\SimpleAdmin.System.csproj",
+        "packagesPath": "C:\\Users\\chenhao\\.nuget\\packages\\",
+        "outputPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.System\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chenhao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Plugin\\SimpleAdmin.Plugin.Aop\\SimpleAdmin.Plugin.Aop.csproj": {
+                "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Plugin\\SimpleAdmin.Plugin.Aop\\SimpleAdmin.Plugin.Aop.csproj"
+              },
+              "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.SqlSugar\\SimpleAdmin.SqlSugar.csproj": {
+                "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.SqlSugar\\SimpleAdmin.SqlSugar.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IP2Region.Net": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Magicodes.IE.Excel": {
+              "target": "Package",
+              "version": "[2.7.5.1, )"
+            },
+            "UAParser": {
+              "target": "Package",
+              "version": "[3.1.47, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

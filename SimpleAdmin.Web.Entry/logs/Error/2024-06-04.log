@@ -1,0 +1,22 @@
+【日志级别】：Error
+【日志类名】：Microsoft.Extensions.Hosting.Internal.Host
+【日志时间】：2024-06-04 08:48:46
+【日志内容】：BackgroundService failed
+【异常信息】：System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at MoYu.EventBus.ChannelEventSourceStorer.ReadAsync(CancellationToken cancellationToken)
+   at MoYu.EventBus.EventBusHostedService.BackgroundProcessing(CancellationToken stoppingToken)
+   at MoYu.EventBus.EventBusHostedService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+
+【日志级别】：Error
+【日志类名】：Microsoft.Extensions.Hosting.Internal.Host
+【日志时间】：2024-06-04 08:48:46
+【日志内容】：BackgroundService failed
+【异常信息】：System.OperationCanceledException: The operation was canceled.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at MoYu.EventBus.ChannelEventSourceStorer.ReadAsync(CancellationToken cancellationToken)
+   at MoYu.EventBus.EventBusHostedService.BackgroundProcessing(CancellationToken stoppingToken)
+   at MoYu.EventBus.EventBusHostedService.ExecuteAsync(CancellationToken stoppingToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+

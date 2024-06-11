@@ -1,0 +1,261 @@
+【日志级别】：Error
+【日志类名】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+【日志时间】：2024-06-10 19:33:13
+【日志内容】：An unhandled exception has occurred while executing the request.
+【异常信息】：Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at StackExchange.Profiling.MiniProfilerMiddleware.GetSingleProfilerResultAsync(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 345
+   at StackExchange.Profiling.MiniProfilerMiddleware.HandleRequest(HttpContext context, PathString subPath) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 232
+   at StackExchange.Profiling.MiniProfilerMiddleware.Invoke(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 64
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SimpleAdmin.Web.Core.WebStatusMiddleware.InvokeAsync(HttpContext context) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Middleware\WebStatusMiddleware.cs:line 42
+   at MoYu.UnifyResult.UnifyResultStatusCodesMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+【日志级别】：Error
+【日志类名】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+【日志时间】：2024-06-10 19:33:52
+【日志内容】：An unhandled exception has occurred while executing the request.
+【异常信息】：Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at StackExchange.Profiling.MiniProfilerMiddleware.GetSingleProfilerResultAsync(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 345
+   at StackExchange.Profiling.MiniProfilerMiddleware.HandleRequest(HttpContext context, PathString subPath) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 232
+   at StackExchange.Profiling.MiniProfilerMiddleware.Invoke(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 64
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SimpleAdmin.Web.Core.WebStatusMiddleware.InvokeAsync(HttpContext context) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Middleware\WebStatusMiddleware.cs:line 42
+   at MoYu.UnifyResult.UnifyResultStatusCodesMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+【日志级别】：Error
+【日志类名】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+【日志时间】：2024-06-10 19:34:47
+【日志内容】：An unhandled exception has occurred while executing the request.
+【异常信息】：Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at StackExchange.Profiling.MiniProfilerMiddleware.GetSingleProfilerResultAsync(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 345
+   at StackExchange.Profiling.MiniProfilerMiddleware.HandleRequest(HttpContext context, PathString subPath) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 232
+   at StackExchange.Profiling.MiniProfilerMiddleware.Invoke(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 64
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SimpleAdmin.Web.Core.WebStatusMiddleware.InvokeAsync(HttpContext context) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Middleware\WebStatusMiddleware.cs:line 42
+   at MoYu.UnifyResult.UnifyResultStatusCodesMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+【日志级别】：Error
+【日志类名】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+【日志时间】：2024-06-10 19:35:57
+【日志内容】：An unhandled exception has occurred while executing the request.
+【异常信息】：Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at StackExchange.Profiling.MiniProfilerMiddleware.GetSingleProfilerResultAsync(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 345
+   at StackExchange.Profiling.MiniProfilerMiddleware.HandleRequest(HttpContext context, PathString subPath) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 232
+   at StackExchange.Profiling.MiniProfilerMiddleware.Invoke(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 64
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SimpleAdmin.Web.Core.WebStatusMiddleware.InvokeAsync(HttpContext context) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Middleware\WebStatusMiddleware.cs:line 42
+   at MoYu.UnifyResult.UnifyResultStatusCodesMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+【日志级别】：Error
+【日志类名】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+【日志时间】：2024-06-10 19:42:20
+【日志内容】：An unhandled exception has occurred while executing the request.
+【异常信息】：Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at StackExchange.Profiling.MiniProfilerMiddleware.GetSingleProfilerResultAsync(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 345
+   at StackExchange.Profiling.MiniProfilerMiddleware.HandleRequest(HttpContext context, PathString subPath) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 232
+   at StackExchange.Profiling.MiniProfilerMiddleware.Invoke(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 64
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SimpleAdmin.Web.Core.WebStatusMiddleware.InvokeAsync(HttpContext context) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Middleware\WebStatusMiddleware.cs:line 42
+   at MoYu.UnifyResult.UnifyResultStatusCodesMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+【日志级别】：Error
+【日志类名】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+【日志时间】：2024-06-10 19:44:40
+【日志内容】：An unhandled exception has occurred while executing the request.
+【异常信息】：Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at StackExchange.Profiling.MiniProfilerMiddleware.GetSingleProfilerResultAsync(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 345
+   at StackExchange.Profiling.MiniProfilerMiddleware.HandleRequest(HttpContext context, PathString subPath) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 232
+   at StackExchange.Profiling.MiniProfilerMiddleware.Invoke(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 64
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SimpleAdmin.Web.Core.WebStatusMiddleware.InvokeAsync(HttpContext context) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Middleware\WebStatusMiddleware.cs:line 42
+   at MoYu.UnifyResult.UnifyResultStatusCodesMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+【日志级别】：Error
+【日志类名】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+【日志时间】：2024-06-10 19:45:47
+【日志内容】：An unhandled exception has occurred while executing the request.
+【异常信息】：Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at StackExchange.Profiling.MiniProfilerMiddleware.GetSingleProfilerResultAsync(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 345
+   at StackExchange.Profiling.MiniProfilerMiddleware.HandleRequest(HttpContext context, PathString subPath) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 232
+   at StackExchange.Profiling.MiniProfilerMiddleware.Invoke(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 64
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SimpleAdmin.Web.Core.WebStatusMiddleware.InvokeAsync(HttpContext context) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Middleware\WebStatusMiddleware.cs:line 42
+   at MoYu.UnifyResult.UnifyResultStatusCodesMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+【日志级别】：Error
+【日志类名】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+【日志时间】：2024-06-10 19:48:00
+【日志内容】：An unhandled exception has occurred while executing the request.
+【异常信息】：Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at StackExchange.Profiling.MiniProfilerMiddleware.GetSingleProfilerResultAsync(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 345
+   at StackExchange.Profiling.MiniProfilerMiddleware.HandleRequest(HttpContext context, PathString subPath) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 232
+   at StackExchange.Profiling.MiniProfilerMiddleware.Invoke(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 64
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SimpleAdmin.Web.Core.WebStatusMiddleware.InvokeAsync(HttpContext context) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Middleware\WebStatusMiddleware.cs:line 42
+   at MoYu.UnifyResult.UnifyResultStatusCodesMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+【日志级别】：Error
+【日志类名】：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+【日志时间】：2024-06-10 19:51:03
+【日志内容】：An unhandled exception has occurred while executing the request.
+【异常信息】：Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at StackExchange.Profiling.MiniProfilerMiddleware.GetSingleProfilerResultAsync(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 345
+   at StackExchange.Profiling.MiniProfilerMiddleware.HandleRequest(HttpContext context, PathString subPath) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 232
+   at StackExchange.Profiling.MiniProfilerMiddleware.Invoke(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 64
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SimpleAdmin.Web.Core.WebStatusMiddleware.InvokeAsync(HttpContext context) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Middleware\WebStatusMiddleware.cs:line 42
+   at MoYu.UnifyResult.UnifyResultStatusCodesMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+【日志级别】：Error
+【日志类名】：SimpleAdmin.Web.Core.LogExceptionHandler
+【日志时间】：2024-06-10 20:05:59
+【日志内容】：中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：The ConnectionString property has not been initialized.DbType="SqlServer";ConfigId="".
+English Message : Connection open error . The ConnectionString property has not been initialized.DbType="SqlServer";ConfigId="" 
+【异常信息】：SqlSugar.SqlSugarException: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：The ConnectionString property has not been initialized.DbType="SqlServer";ConfigId="".
+English Message : Connection open error . The ConnectionString property has not been initialized.DbType="SqlServer";ConfigId="" 
+   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)
+   at SqlSugar.AdoProvider.CheckConnection()
+   at SqlSugar.SqlServerProvider.GetCommand(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToList[TResult]()
+   at SqlSugar.QueryableProvider`1.ToList()
+   at SqlSugar.QueryableProvider`1.InSingle(Object pkValue)
+   at TTback.MyUtils.DatabaseHelper.QueryById[T](Int64 id) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.System\MyUtils\DatabaseHelper.cs:line 73
+   at SimpleAdmin.System.SysUserService.GetUserFromDb(Int64 userId) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.System\Services\Organization\User\SysUserService.cs:line 1156
+   at SimpleAdmin.System.SysUserService.GetUserById(Int64 userId) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.System\Services\Organization\User\SysUserService.cs:line 133
+   at SimpleAdmin.System.SysUserService.GetUserByAccount(String account, Nullable`1 tenantId) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.System\Services\Organization\User\SysUserService.cs:line 77
+   at SimpleAdmin.System.Services.Auth.AuthService.Login(LoginInput input, LoginClientTypeEnum loginClientType) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.System\Services\Auth\Auth\AuthService.cs:line 84
+   at SimpleAdmin.Web.Core.AuthBController.Login(LoginInput input) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Controllers\System\Auth\AuthBController.cs:line 60
+   at lambda_method19(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+【日志级别】：Error
+【日志类名】：System.Logging.FriendlyException
+【日志时间】：2024-06-10 20:05:59
+【日志内容】：系统异常，请联系管理员
+【异常信息】：MoYu.FriendlyException.AppFriendlyException: 系统异常，请联系管理员
+
+【日志级别】：Error
+【日志类名】：SimpleAdmin.Web.Core.LogExceptionHandler
+【日志时间】：2024-06-10 20:12:03
+【日志内容】：中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：The ConnectionString property has not been initialized.DbType="SqlServer";ConfigId="".
+English Message : Connection open error . The ConnectionString property has not been initialized.DbType="SqlServer";ConfigId="" 
+【异常信息】：SqlSugar.SqlSugarException: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，错误信息：The ConnectionString property has not been initialized.DbType="SqlServer";ConfigId="".
+English Message : Connection open error . The ConnectionString property has not been initialized.DbType="SqlServer";ConfigId="" 
+   at SqlSugar.Check.Exception(Boolean isException, String message, String[] args)
+   at SqlSugar.AdoProvider.CheckConnection()
+   at SqlSugar.SqlServerProvider.GetCommand(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   at SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   at SqlSugar.QueryableProvider`1._ToList[TResult]()
+   at SqlSugar.QueryableProvider`1.ToList()
+   at SqlSugar.QueryableProvider`1.InSingle(Object pkValue)
+   at TTback.MyUtils.DatabaseHelper.QueryById[T](Int64 id) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.System\MyUtils\DatabaseHelper.cs:line 73
+   at SimpleAdmin.System.SysUserService.GetUserFromDb(Int64 userId) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.System\Services\Organization\User\SysUserService.cs:line 1156
+   at SimpleAdmin.System.SysUserService.GetUserById(Int64 userId) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.System\Services\Organization\User\SysUserService.cs:line 133
+   at SimpleAdmin.System.SysUserService.GetUserByAccount(String account, Nullable`1 tenantId) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.System\Services\Organization\User\SysUserService.cs:line 77
+   at SimpleAdmin.System.Services.Auth.AuthService.Login(LoginInput input, LoginClientTypeEnum loginClientType) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.System\Services\Auth\Auth\AuthService.cs:line 84
+   at SimpleAdmin.Web.Core.AuthBController.Login(LoginInput input) in C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Web.Core\Controllers\System\Auth\AuthBController.cs:line 60
+   at lambda_method19(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+【日志级别】：Error
+【日志类名】：System.Logging.FriendlyException
+【日志时间】：2024-06-10 20:12:04
+【日志内容】：系统异常，请联系管理员
+【异常信息】：MoYu.FriendlyException.AppFriendlyException: 系统异常，请联系管理员
+

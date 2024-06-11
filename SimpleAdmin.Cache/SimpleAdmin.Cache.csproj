@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+      <TargetFramework>net6.0</TargetFramework>
+      <TargetFrameworks />
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="SimpleRedis" Version="1.1.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\SimpleAdmin.Core\SimpleAdmin.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="Cache.Development.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Cache.Production.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>

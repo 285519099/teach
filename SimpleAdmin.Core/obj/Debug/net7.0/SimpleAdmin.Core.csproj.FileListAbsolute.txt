@@ -1,0 +1,15 @@
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\bin\Debug\net7.0\Core.Development.json
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\bin\Debug\net7.0\Core.Production.json
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\bin\Debug\net7.0\SimpleAdmin.Core.deps.json
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\bin\Debug\net7.0\SimpleAdmin.Core.dll
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\bin\Debug\net7.0\SimpleAdmin.Core.pdb
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\bin\Debug\net7.0\SimpleAdmin.Core.xml
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\obj\Debug\net7.0\SimpleAdmin.Core.csproj.AssemblyReference.cache
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\obj\Debug\net7.0\SimpleAdmin.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\obj\Debug\net7.0\SimpleAdmin.Core.AssemblyInfoInputs.cache
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\obj\Debug\net7.0\SimpleAdmin.Core.AssemblyInfo.cs
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\obj\Debug\net7.0\SimpleAdmin.Core.csproj.CoreCompileInputs.cache
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\obj\Debug\net7.0\SimpleAdmin.Core.dll
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\obj\Debug\net7.0\refint\SimpleAdmin.Core.dll
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\obj\Debug\net7.0\SimpleAdmin.Core.pdb
+C:\Myprogram\C#_program\SimpleAdmin-master\api\SimpleAdmin\SimpleAdmin.Core\obj\Debug\net7.0\ref\SimpleAdmin.Core.dll

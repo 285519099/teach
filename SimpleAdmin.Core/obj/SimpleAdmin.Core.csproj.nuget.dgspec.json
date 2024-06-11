@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj": {
+      "version": "3.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj",
+        "projectName": "SimpleAdmin.Core",
+        "projectPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\SimpleAdmin.Core.csproj",
+        "packagesPath": "C:\\Users\\chenhao\\.nuget\\packages\\",
+        "outputPath": "C:\\Myprogram\\C#_program\\SimpleAdmin-master\\api\\SimpleAdmin\\SimpleAdmin.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chenhao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Lazy.Captcha.Core": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            },
+            "Masuit.Tools.Core": {
+              "target": "Package",
+              "version": "[2.6.9.7, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MoYu.Extras.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[0.0.0.9, )"
+            },
+            "MoYu.Extras.ObjectMapper.Mapster": {
+              "target": "Package",
+              "version": "[0.0.0.9, )"
+            },
+            "MoYu.Pure": {
+              "target": "Package",
+              "version": "[0.0.0.9, )"
+            },
+            "NewLife.Core": {
+              "target": "Package",
+              "version": "[10.8.2024.303, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "SharpZipLib": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SimpleTool": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Yitter.IdGenerator": {
+              "target": "Package",
+              "version": "[1.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SimpleAdmin.Web.Entry.props" />
+</Project>

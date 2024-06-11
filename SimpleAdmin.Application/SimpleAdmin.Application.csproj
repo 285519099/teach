@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+      <TargetFramework>net6.0</TargetFramework>
+      <TargetFrameworks />
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <None Remove="applicationsettings.Development.json" />
+        <None Remove="applicationsettings.Production.json" />
+        <None Remove="SimpleAdmin.Application.xml" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\SimpleAdmin.System\SimpleAdmin.System.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="Application.Development.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Application.Production.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>

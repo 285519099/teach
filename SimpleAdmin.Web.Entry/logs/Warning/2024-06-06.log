@@ -1,0 +1,5 @@
+【日志级别】：Warning
+【日志类名】：Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+【日志时间】：2024-06-06 14:20:13
+【日志内容】：Failed to determine the https port for redirect.
+

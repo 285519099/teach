@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+      <TargetFramework>net6.0</TargetFramework>
+      <TargetFrameworks />
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="SqlSugarCore" Version="5.1.4.146" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\SimpleAdmin.Core\SimpleAdmin.Core.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="SqlSugar.Development.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="SqlSugar.Production.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Remove="CodeFirst\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Remove="CodeFirst\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Remove="CodeFirst\**" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+    <PropertyGroup>
+      <TargetFramework>net6.0</TargetFramework>
+      <TargetFrameworks />
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="IP2Region.Net" Version="2.0.2" />
+        <PackageReference Include="UAParser" Version="3.1.47" />
+        <PackageReference Include="Magicodes.IE.Excel" Version="2.7.5.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\SimpleAdmin.Plugin\SimpleAdmin.Plugin.Aop\SimpleAdmin.Plugin.Aop.csproj" />
+        <ProjectReference Include="..\SimpleAdmin.SqlSugar\SimpleAdmin.SqlSugar.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="System.Development.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="System.Production.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\Json\seed_sys_config.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\Json\seed_sys_dict.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\Json\seed_sys_org.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\Json\seed_sys_position.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\Json\seed_sys_relation.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\Json\seed_sys_resource.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\Json\seed_sys_role.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="SeedData\Json\seed_sys_user.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <Folder Include="Services\LogAudit\" />
+    </ItemGroup>
+
+</Project>

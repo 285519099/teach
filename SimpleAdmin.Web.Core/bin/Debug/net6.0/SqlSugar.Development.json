@@ -1,0 +1,29 @@
+{
+  //sqlSugar设置
+  "SqlSugarSettings": {
+    //SqlSugar连接字符串配置
+    "ConnectionStrings": [
+//      {
+//        "ConfigId": "SimpleAdmin", //租户ID
+//        "ConnectionString": "Data Source=./SimpleAdmin.db", //连接字符串
+//        "DbType": "Sqlite", //数据库类型
+//        "IsAutoCloseConnection": true, //是否自动释放
+//        "IsUnderLine": false //是否驼峰转下划线
+//      },
+      //      {
+      //        "ConfigId": "SimpleAdmin", //租户ID
+      //        "ConnectionString": "server=192.168.1.3;Database=SimpleAdmin;Uid=root;Pwd=123456;CharSet=utf8mb4;", //连接字符串
+      //        "DbType": "MySql", //数据库类型
+      //        "IsAutoCloseConnection": true, //是否自动释放
+      //        "IsUnderLine": false //是否驼峰转下划线
+      //      },
+            {
+              "ConfigId": "SimpleAdmin", //租户ID
+              "ConnectionString": "Server=58.240.211.43,8097;Database=SimpleAdmin;User ID=sa;Password=Syl600183;", //连接字符串
+              "DbType": "SqlServer", //数据库类型 
+              "IsAutoCloseConnection": true, //是否自动释放
+              "IsUnderLine": false //是否驼峰转下划线
+            }
+    ]
+  }
+}
